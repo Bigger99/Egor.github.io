@@ -1,0 +1,285 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+/* header */
+
+
+.header{
+    height: 1000px;
+    background-image: url(/image/bg1.png);
+    background-size: cover;
+    background-position: 10px;
+    position: relative;
+}
+
+.conteiner{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.conteiner_bg1{
+    position: relative;
+}
+
+.logo{
+    padding-left: 40px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.header-begin{
+    color:white;
+    display: inline-block;
+    margin-left: 195px;
+    margin-top: 30px;
+}
+
+.header_right{
+    display: inline-block;
+    position: absolute;
+}
+
+.li_1{
+    list-style-type: none;
+    display: inline; 
+    font-size: 13px;
+}
+
+a, a:active, a:hover, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+
+li .nav:after{
+    content: " • ";
+    word-spacing: 12px;
+}
+
+.order{
+    width: 100px;
+    height: 38px;
+    color: white;
+    background-color: #E45028;
+    border-radius: 4px; 
+    margin-left: 10px;
+    position: absolute;
+    right: -115px;
+    top:35px;
+    font-size: 13px;  
+}
+
+.text-order{
+    margin: 13px 16px;
+}
+
+.burger{
+    margin-left: 124px;
+    margin-top: -10px;
+    display: inline-block;
+    position: absolute;
+    top:250px;
+}
+
+.souses{
+    margin-left: 90px;
+    margin-top: 52px;
+    display: inline-block;
+    position: absolute;
+    left:0px;
+    top:250px;
+}
+
+.text-header{
+    color: white;
+    text-align: 50px; 
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+
+.yellow{
+    color: #F9B43B;
+    font-family: 'gagalinregular';
+    font-size: 100px;
+    line-height:10px;
+}
+
+.white{
+    margin-top:-47px;
+    font-family: 'lifehackmedium';
+    font-size: 55px;
+    
+}
+
+.runner_btn{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    right:40px;
+    text-transform: 
+}
+
+.runner_btn:hover{
+    border:2px solid #FFFFFF;
+    margin: 5px;
+}
+
+/* content */
+
+.content{
+    height: 950px;
+    background-image: url(/image/bg2.png);
+    background-size: cover;
+    background-position: 10px -200px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.Best_Content{
+    padding-top: 240px;
+    
+}
+
+.theBest{
+    font-family: 'gagalinregular';
+    font-size: 95px;
+    margin-left: 363px;
+    margin-top: 50px;
+}
+
+.sidebars{
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+.left-sidebar, .center-sidebar, .right-sidebar{
+    width: 290px;
+    height: 260px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.right-caption, .center-caption, .left-caption{
+    font-family: 'lifehackmedium';
+    font-size: 21px;
+    margin-top: 25px
+}
+
+.left-text, .right-text, .center-text{
+    font-family: 'ubuntulight';
+    font-size: 14px;
+    line-height: 20px;
+        
+}
+
+.center-caption{
+    margin-left:40px;
+    
+}
+
+.right-caption{
+    margin-left: 100px;
+    margin-top: 40px;
+    
+}
+
+.left-text{
+    margin-top: 20px;
+    margin-left: -6px;
+    line-height: 24px;
+}
+
+.center-text{
+    margin-top: 17px;
+    margin-left: 20px;
+    line-height: 24px;
+    margin-right: -20px;
+}
+
+.right-text{
+    margin-top: 10px;
+    margin-left: 48px;
+    line-height: 24px;
+    margin-right: -50px;
+}
+
+.vegetables{
+    
+}
+
+.sous{
+    position: absolute;
+    left:-170px;
+    top: 0px;
+    
+}
+
+.salad{
+    position: absolute;
+    right:-350px;
+    top: 0px;
+}
+
+.tomatos2{
+    position: absolute;
+    left:590px;
+    top:770px;
+    transform: rotate(30deg);
+    z-index: 1;
+}
+
+.cheese{
+   position: absolute;
+    left:1350px;
+    top:670px;
+}
+
+.tomato{
+    position: absolute;
+    left:1700px;
+    top:790px;
+}
+
+
+.peaple{
+    height: 490px;
+    width: 635px;
+    display: inline-block;
+    margin-left: -10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.peaple_1{
+    background-image: url(/image/hairGirl.png);
+    
+    z-index: 3;
+}
+.peaple_2{
+    background-image: url(/image/glassesBoy.png);
+}
+.peaple_3{
+    background-image: url(/image/beautifulGirl.png);
+}
+.peaple_4{
+    background-image: url(/image/boyInCap.png);
+}
+.peaple_5{
+    background-image: url(/image/topHair.png);
+}
+.peaple_6{
+    background-image: url(/image/pirsingGirl.png);
+}
+.peaple_7{
+    background-image: url(/image/oldman.png);
+}
+.peaple_8{
+    background-image: url(/image/birdMan.png);
+}
